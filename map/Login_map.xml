@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Login_map [
+	<!ELEMENT Login_map (userName,password,submit) >
+	<!ELEMENT userName (#PCDATA)>
+	<!ELEMENT password (#PCDATA)>
+	<!ELEMENT submit (#PCDATA)>
+	<!ATTLIST userName propertyName CDATA #IMPLIED 
+					  id CDATA #IMPLIED 
+					  type CDATA #IMPLIED 
+					  value CDATA #IMPLIED
+					  className CDATA #IMPLIED
+					  name CDATA #IMPLIED
+					  xpath CDATA #IMPLIED
+					  linkText CDATA #IMPLIED					  
+	>
+	<!ATTLIST password propertyName CDATA #IMPLIED 
+					  id CDATA #IMPLIED 
+					  type CDATA #IMPLIED 
+					  value CDATA #IMPLIED
+					  className CDATA #IMPLIED
+					  name CDATA #IMPLIED
+					  xpath CDATA #IMPLIED
+					  linkText CDATA #IMPLIED					  
+	>
+	<!ATTLIST submit propertyName CDATA #IMPLIED 
+					  id CDATA #IMPLIED 
+					  type CDATA #IMPLIED 
+					  value CDATA #IMPLIED
+					  className CDATA #IMPLIED
+					  name CDATA #IMPLIED
+					  xpath CDATA #IMPLIED
+					  linkText CDATA #IMPLIED					  
+	>		
+]>
+
+<Login_map>
+	<userName propertyName="xpath" id="userName" type="" value="" xpath="//input[@id='userName']" />
+	<password propertyName="id" id="password" type="password" name="" value="" className="" />
+	<submit propertyName="id" id="submit" type="submit" className="" />
+</Login_map>

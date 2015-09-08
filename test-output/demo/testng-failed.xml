@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="10" name="Failed suite [demo]" parallel="tests">
+  <test name="TestNg(failed)" parallel="tests">
+    <classes>
+      <class name="com.netease.demo.TestNg">
+        <methods>
+          <include name="doBeforeClass"/>
+          <include name="doAfterClass"/>
+          <include name="doTest"/>
+        </methods>
+      </class> <!-- com.netease.demo.TestNg -->
+      <class name="com.netease.demo.TestNgClone">
+        <methods>
+          <include name="doAfterClass"/>
+          <include name="doBeforeClass"/>
+        </methods>
+      </class> <!-- com.netease.demo.TestNgClone -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+  <test name="TestNgClone(failed)" parallel="tests">
+    <classes>
+      <class name="com.netease.demo.TestNg">
+        <methods>
+          <include name="doBeforeClass"/>
+          <include name="doAfterClass"/>
+        </methods>
+      </class> <!-- com.netease.demo.TestNg -->
+      <class name="com.netease.demo.TestNgClone">
+        <methods>
+          <include name="doTest"/>
+          <include name="doAfterClass"/>
+          <include name="doBeforeClass"/>
+        </methods>
+      </class> <!-- com.netease.demo.TestNgClone -->
+    </classes>
+  </test> <!-- TestNgClone(failed) -->
+</suite> <!-- Failed suite [demo] -->

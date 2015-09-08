@@ -1,0 +1,462 @@
+2015-09-04 11:39:08 [main]-[INFO] 读取excel开始...
+2015-09-04 11:39:08 [main]-[INFO] 读取excel结束...
+2015-09-04 11:39:08 [main]-[INFO] Pause 500 ms
+2015-09-04 11:39:08 [main]-[INFO] Not found element//a[@class='logo']
+2015-09-04 11:39:09 [main]-[INFO] Pause 500 ms
+2015-09-04 11:39:09 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:10 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:10 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:11 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:11 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:12 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:12 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:13 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:14 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:14 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:15 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:17 [main]-[INFO] Pause 500 ms
+2015-09-04 11:39:38 [main]-[INFO] 读取excel开始...
+2015-09-04 11:39:38 [main]-[INFO] 读取excel结束...
+2015-09-04 11:39:39 [main]-[INFO] Pause 500 ms
+2015-09-04 11:39:39 [main]-[INFO] Not found element//a[@class='logo']
+2015-09-04 11:39:40 [main]-[INFO] Pause 500 ms
+2015-09-04 11:39:40 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:40 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:41 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:41 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:42 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:39:42 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:40:26 [main]-[INFO] Pause 500 ms
+2015-09-04 11:40:26 [main]-[INFO] Not found elementhtml/body/div[2]/div[1]/div[1]/a
+2015-09-04 11:40:28 [main]-[INFO] Pause 500 ms
+2015-09-04 11:40:28 [main]-[INFO] Not found elementhtml/body/div[2]/div[1]/div[1]/a
+2015-09-04 11:40:42 [main]-[INFO] Pause 500 ms
+2015-09-04 11:40:42 [main]-[INFO] Not found elementhtml/body/div[2]/div[1]/div[1]/a
+2015-09-04 11:43:46 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:47 [main]-[INFO] Opened url http://eden.qfs9.com
+2015-09-04 11:43:47 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:47 [main]-[INFO] Found element By.xpath: //input[@id='userName']
+2015-09-04 11:43:47 [main]-[INFO] Found desired element By.xpath: //input[@id='userName']
+2015-09-04 11:43:48 [main]-[INFO] Type hulk003 at By.xpath: //input[@id='userName']
+2015-09-04 11:43:48 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:48 [main]-[INFO] Found element By.id: password
+2015-09-04 11:43:48 [main]-[INFO] Found desired element By.id: password
+2015-09-04 11:43:48 [main]-[INFO] Type 123qwe at By.id: password
+2015-09-04 11:43:49 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:49 [main]-[INFO] Found element By.id: submit
+2015-09-04 11:43:49 [main]-[INFO] Found desired element By.id: submit
+2015-09-04 11:43:49 [main]-[INFO] Clicked By.id: submit
+2015-09-04 11:43:49 [main]-[INFO] 读取excel开始...
+2015-09-04 11:43:49 [main]-[INFO] 读取excel结束...
+2015-09-04 11:43:50 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:50 [main]-[INFO] Not found element//a[@class='logo']
+2015-09-04 11:43:50 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:50 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:51 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:51 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:54 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:54 [main]-[INFO] Found desired element By.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:55 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:55 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:55 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:55 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:55 [main]-[INFO] Found desired element By.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:58 [main]-[INFO] Clicked By.xpath: //*[@id='lli_17']/a
+2015-09-04 11:43:58 [main]-[INFO] Pause 500 ms
+2015-09-04 11:43:59 [main]-[INFO] Found element //a[@id='newrefreshmoney']
+2015-09-04 11:43:59 [main]-[INFO] Found desired element //a[@id='newrefreshmoney']
+2015-09-04 11:43:59 [main]-[INFO] Clicked //a[@id='newrefreshmoney']
+2015-09-04 11:44:00 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:00 [main]-[INFO] Found element //span[contains(.,'定位胆')]
+2015-09-04 11:44:00 [main]-[INFO] Found desired element //span[contains(.,'定位胆')]
+2015-09-04 11:44:01 [main]-[INFO] Clicked //span[contains(.,'定位胆')]
+2015-09-04 11:44:01 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:02 [main]-[INFO] Found element //label[contains(.,'定位胆')]
+2015-09-04 11:44:02 [main]-[INFO] Found desired element //label[contains(.,'定位胆')]
+2015-09-04 11:44:02 [main]-[INFO] Clicked //label[contains(.,'定位胆')]
+2015-09-04 11:44:04 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:05 [main]-[INFO] Found element //*[@id='lli_17']/span
+2015-09-04 11:44:06 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:06 [main]-[INFO] Found element //li[@name='lt_place_0'][4]
+2015-09-04 11:44:06 [main]-[INFO] Found desired element //li[@name='lt_place_0'][4]
+2015-09-04 11:44:06 [main]-[INFO] Clicked //li[@name='lt_place_0'][4]
+2015-09-04 11:44:07 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:07 [main]-[INFO] Found element //li[@name='lt_place_1'][5]
+2015-09-04 11:44:07 [main]-[INFO] Found desired element //li[@name='lt_place_1'][5]
+2015-09-04 11:44:07 [main]-[INFO] Clicked //li[@name='lt_place_1'][5]
+2015-09-04 11:44:08 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:08 [main]-[INFO] Found element //li[@name='lt_place_2'][6]
+2015-09-04 11:44:08 [main]-[INFO] Found desired element //li[@name='lt_place_2'][6]
+2015-09-04 11:44:09 [main]-[INFO] Clicked //li[@name='lt_place_2'][6]
+2015-09-04 11:44:09 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:09 [main]-[INFO] Found element //li[@name='lt_place_3'][7]
+2015-09-04 11:44:09 [main]-[INFO] Found desired element //li[@name='lt_place_3'][7]
+2015-09-04 11:44:10 [main]-[INFO] Clicked //li[@name='lt_place_3'][7]
+2015-09-04 11:44:10 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:14 [main]-[INFO] Found element //li[@name='lt_place_4'][8]
+2015-09-04 11:44:14 [main]-[INFO] Found desired element //li[@name='lt_place_4'][8]
+2015-09-04 11:44:15 [main]-[INFO] Clicked //li[@name='lt_place_4'][8]
+2015-09-04 11:44:44 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:44 [main]-[INFO] Opened url http://dev.qfs9.com
+2015-09-04 11:44:45 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:45 [main]-[INFO] Found element By.xpath: //input[@id='userName']
+2015-09-04 11:44:45 [main]-[INFO] Found desired element By.xpath: //input[@id='userName']
+2015-09-04 11:44:45 [main]-[INFO] Type hulk003 at By.xpath: //input[@id='userName']
+2015-09-04 11:44:46 [main]-[INFO] Pause 500 ms
+2015-09-04 11:44:46 [main]-[INFO] Found element By.id: password
+2015-09-04 11:44:46 [main]-[INFO] Found desired element By.id: password
+2015-09-04 11:44:46 [main]-[INFO] Type 123qwe at By.id: password
+2015-09-04 11:44:47 [main]-[INFO] Pause 500 ms
+2015-09-04 11:46:41 [main]-[INFO] Pause 500 ms
+2015-09-04 11:47:21 [main]-[INFO] 读取excel开始...
+2015-09-04 11:47:21 [main]-[INFO] 读取excel结束...
+2015-09-04 11:47:21 [main]-[INFO] Pause 500 ms
+2015-09-04 11:47:21 [main]-[INFO] Not found element//a[@class='logo']
+2015-09-04 11:47:22 [main]-[INFO] Pause 500 ms
+2015-09-04 11:47:22 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:23 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:23 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:24 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:24 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:25 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:25 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:26 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:26 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:27 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 11:47:28 [main]-[INFO] Pause 500 ms
+2015-09-04 11:47:53 [main]-[INFO] Pause 500 ms
+2015-09-04 13:28:23 [main]-[INFO] 读取excel开始...
+2015-09-04 13:28:24 [main]-[INFO] 读取excel结束...
+2015-09-04 13:28:24 [main]-[INFO] Pause 500 ms
+2015-09-04 13:28:24 [main]-[INFO] Not found element//a[@class='logo']
+2015-09-04 13:28:25 [main]-[INFO] Pause 500 ms
+2015-09-04 13:28:25 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:25 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:26 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:26 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:27 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:27 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:28 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:29 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:29 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:30 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:30 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:31 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:28:31 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:29:38 [main]-[INFO] Pause 500 ms
+2015-09-04 13:29:40 [main]-[INFO] Opened url http://www.google.com
+2015-09-04 13:29:41 [main]-[INFO] Pause 500 ms
+2015-09-04 13:29:41 [main]-[INFO] Opened url http://www.google.com
+2015-09-04 13:29:41 [main]-[INFO] 读取excel开始...
+2015-09-04 13:29:41 [main]-[INFO] 读取excel结束...
+2015-09-04 13:29:42 [main]-[INFO] Pause 500 ms
+2015-09-04 13:29:42 [main]-[INFO] Not found element//a[@class='logo']
+2015-09-04 13:29:43 [main]-[INFO] Pause 500 ms
+2015-09-04 13:29:43 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:29:43 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 13:29:44 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:16:08 [main]-[INFO] Pause 500 ms
+2015-09-04 15:16:10 [main]-[INFO] Opened url http://www.google.com
+2015-09-04 15:16:10 [main]-[INFO] Pause 500 ms
+2015-09-04 15:16:10 [main]-[INFO] Found element //input[@name='q']
+2015-09-04 15:16:10 [main]-[INFO] Found desired element //input[@name='q']
+2015-09-04 15:16:11 [main]-[INFO] Type github at //input[@name='q']
+2015-09-04 15:16:11 [main]-[INFO] Pause 500 ms
+2015-09-04 15:16:11 [main]-[INFO] Found element //input[@name= 'btnK']
+2015-09-04 15:16:11 [main]-[INFO] Found desired element //input[@name= 'btnK']
+2015-09-04 15:16:11 [main]-[INFO] Clicked //input[@name= 'btnK']
+2015-09-04 15:16:14 [main]-[INFO] Pause 3000 ms
+2015-09-04 15:16:15 [main]-[INFO] Not found text www.github.com
+2015-09-04 15:16:15 [main]-[INFO] Pause 500 ms
+2015-09-04 15:16:16 [main]-[INFO] Opened url http://www.google.com
+2015-09-04 15:16:16 [main]-[INFO] Pause 500 ms
+2015-09-04 15:16:16 [main]-[INFO] Found element //input[@name='q']
+2015-09-04 15:16:16 [main]-[INFO] Found desired element //input[@name='q']
+2015-09-04 15:16:17 [main]-[INFO] Type lietou.com at //input[@name='q']
+2015-09-04 15:16:17 [main]-[INFO] Pause 500 ms
+2015-09-04 15:16:17 [main]-[INFO] Found element //input[@name= 'btnK']
+2015-09-04 15:16:17 [main]-[INFO] Found desired element //input[@name= 'btnK']
+2015-09-04 15:16:17 [main]-[INFO] Clicked //input[@name= 'btnK']
+2015-09-04 15:16:20 [main]-[INFO] Pause 3000 ms
+2015-09-04 15:16:21 [main]-[INFO] Found text www.lietou.com
+2015-09-04 15:16:21 [main]-[INFO] Pause 500 ms
+2015-09-04 15:16:22 [main]-[INFO] Quitted BrowserEmulator
+2015-09-04 15:25:15 [main]-[INFO] Pause 500 ms
+2015-09-04 15:25:16 [main]-[INFO] Opened url http://www.google.com
+2015-09-04 15:25:17 [main]-[INFO] Pause 500 ms
+2015-09-04 15:25:18 [main]-[INFO] Opened url http://www.google.com
+2015-09-04 15:25:18 [main]-[INFO] 读取excel开始...
+2015-09-04 15:25:18 [main]-[INFO] 读取excel结束...
+2015-09-04 15:25:18 [main]-[INFO] Pause 500 ms
+2015-09-04 15:25:18 [main]-[INFO] Not found element//a[@class='logo']
+2015-09-04 15:25:19 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:06 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:10 [main]-[INFO] Opened url http://eden.qfs9.com
+2015-09-04 15:46:10 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:10 [main]-[INFO] Found element By.xpath: //input[@id='userName']
+2015-09-04 15:46:10 [main]-[INFO] Found desired element By.xpath: //input[@id='userName']
+2015-09-04 15:46:11 [main]-[INFO] Type hulk003 at By.xpath: //input[@id='userName']
+2015-09-04 15:46:11 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:11 [main]-[INFO] Found element By.id: password
+2015-09-04 15:46:11 [main]-[INFO] Found desired element By.id: password
+2015-09-04 15:46:11 [main]-[INFO] Type 123qwe at By.id: password
+2015-09-04 15:46:12 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:12 [main]-[INFO] Found element By.id: submit
+2015-09-04 15:46:12 [main]-[INFO] Found desired element By.id: submit
+2015-09-04 15:46:12 [main]-[INFO] Clicked By.id: submit
+2015-09-04 15:46:13 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:13 [main]-[INFO] Opened url http://www.google.com
+2015-09-04 15:46:13 [main]-[INFO] 读取excel开始...
+2015-09-04 15:46:13 [main]-[INFO] 读取excel结束...
+2015-09-04 15:46:13 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:16 [main]-[INFO] Not found element//a[@class='logo']
+2015-09-04 15:46:16 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:16 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:17 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:17 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:18 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:18 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:19 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:19 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:20 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:21 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:21 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:22 [main]-[INFO] Not found elementBy.xpath: //*[@id='lli_17']/a
+2015-09-04 15:46:53 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:53 [main]-[INFO] Opened url http://eden.qfs9.com
+2015-09-04 15:46:54 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:54 [main]-[INFO] Found element By.xpath: //input[@id='userName']
+2015-09-04 15:46:54 [main]-[INFO] Found desired element By.xpath: //input[@id='userName']
+2015-09-04 15:46:54 [main]-[INFO] Type hulk003 at By.xpath: //input[@id='userName']
+2015-09-04 15:46:54 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:55 [main]-[INFO] Found element By.id: password
+2015-09-04 15:46:55 [main]-[INFO] Found desired element By.id: password
+2015-09-04 15:46:55 [main]-[INFO] Type 123qwe at By.id: password
+2015-09-04 15:46:55 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:55 [main]-[INFO] Found element By.id: submit
+2015-09-04 15:46:55 [main]-[INFO] Found desired element By.id: submit
+2015-09-04 15:46:55 [main]-[INFO] Clicked By.id: submit
+2015-09-04 15:46:55 [main]-[INFO] 读取excel开始...
+2015-09-04 15:46:56 [main]-[INFO] 读取excel结束...
+2015-09-04 15:46:56 [main]-[INFO] Pause 500 ms
+2015-09-04 15:46:59 [main]-[INFO] Found element //a[@class='logo']
+2015-09-04 15:46:59 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:00 [main]-[INFO] Found element //a[@class='logo']
+2015-09-04 15:47:00 [main]-[INFO] Found desired element //a[@class='logo']
+2015-09-04 15:47:01 [main]-[INFO] Clicked //a[@class='logo']
+2015-09-04 15:47:01 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:01 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:01 [main]-[INFO] Found desired element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:02 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:02 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:02 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:03 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:03 [main]-[INFO] Found desired element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:03 [main]-[INFO] Clicked By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:03 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:12 [main]-[INFO] Found element //a[@id='newrefreshmoney']
+2015-09-04 15:47:12 [main]-[INFO] Found desired element //a[@id='newrefreshmoney']
+2015-09-04 15:47:12 [main]-[INFO] Clicked //a[@id='newrefreshmoney']
+2015-09-04 15:47:13 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:13 [main]-[INFO] Found element //span[contains(.,'定位胆')]
+2015-09-04 15:47:13 [main]-[INFO] Found desired element //span[contains(.,'定位胆')]
+2015-09-04 15:47:14 [main]-[INFO] Clicked //span[contains(.,'定位胆')]
+2015-09-04 15:47:14 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:14 [main]-[INFO] Found element //label[contains(.,'定位胆')]
+2015-09-04 15:47:14 [main]-[INFO] Found desired element //label[contains(.,'定位胆')]
+2015-09-04 15:47:15 [main]-[INFO] Clicked //label[contains(.,'定位胆')]
+2015-09-04 15:47:17 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:18 [main]-[INFO] Found element //*[@id='lli_17']/span
+2015-09-04 15:47:18 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:19 [main]-[INFO] Found element //li[@name='lt_place_0'][4]
+2015-09-04 15:47:19 [main]-[INFO] Found desired element //li[@name='lt_place_0'][4]
+2015-09-04 15:47:19 [main]-[INFO] Clicked //li[@name='lt_place_0'][4]
+2015-09-04 15:47:20 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:20 [main]-[INFO] Found element //li[@name='lt_place_1'][5]
+2015-09-04 15:47:20 [main]-[INFO] Found desired element //li[@name='lt_place_1'][5]
+2015-09-04 15:47:20 [main]-[INFO] Clicked //li[@name='lt_place_1'][5]
+2015-09-04 15:47:21 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:21 [main]-[INFO] Found element //li[@name='lt_place_2'][6]
+2015-09-04 15:47:21 [main]-[INFO] Found desired element //li[@name='lt_place_2'][6]
+2015-09-04 15:47:21 [main]-[INFO] Clicked //li[@name='lt_place_2'][6]
+2015-09-04 15:47:22 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:22 [main]-[INFO] Found element //li[@name='lt_place_3'][7]
+2015-09-04 15:47:22 [main]-[INFO] Found desired element //li[@name='lt_place_3'][7]
+2015-09-04 15:47:23 [main]-[INFO] Clicked //li[@name='lt_place_3'][7]
+2015-09-04 15:47:23 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:23 [main]-[INFO] Found element //li[@name='lt_place_4'][8]
+2015-09-04 15:47:23 [main]-[INFO] Found desired element //li[@name='lt_place_4'][8]
+2015-09-04 15:47:24 [main]-[INFO] Clicked //li[@name='lt_place_4'][8]
+2015-09-04 15:47:24 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:25 [main]-[INFO] Found element //label[contains(.,'元')]
+2015-09-04 15:47:25 [main]-[INFO] Found desired element //label[contains(.,'元')]
+2015-09-04 15:47:25 [main]-[INFO] Clicked //label[contains(.,'元')]
+2015-09-04 15:47:25 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:26 [main]-[INFO] Found element //label[contains(.,'厘')]
+2015-09-04 15:47:26 [main]-[INFO] Found desired element //label[contains(.,'厘')]
+2015-09-04 15:47:26 [main]-[INFO] Clicked //label[contains(.,'厘')]
+2015-09-04 15:47:26 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:27 [main]-[INFO] Found element //*[@id='lt_sel_times']
+2015-09-04 15:47:27 [main]-[INFO] Found desired element //*[@id='lt_sel_times']
+2015-09-04 15:47:27 [main]-[INFO] Type 2 at //*[@id='lt_sel_times']
+2015-09-04 15:47:28 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:28 [main]-[INFO] Found element //label[contains(.,'奖金18.2')]
+2015-09-04 15:47:28 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:29 [main]-[INFO] Found element //label[contains(.,'奖金18.2')]
+2015-09-04 15:47:29 [main]-[INFO] Found desired element //label[contains(.,'奖金18.2')]
+2015-09-04 15:47:29 [main]-[INFO] Clicked //label[contains(.,'奖金18.2')]
+2015-09-04 15:47:30 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:30 [main]-[INFO] Found element //label[contains(.,'奖金18.2')]
+2015-09-04 15:47:30 [main]-[INFO] Found desired element //label[contains(.,'奖金18.2')]
+2015-09-04 15:47:30 [main]-[INFO] Clicked //label[contains(.,'奖金18.2')]
+2015-09-04 15:47:31 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:31 [main]-[INFO] Found element //label[contains(.,'奖金18.2')]
+2015-09-04 15:47:32 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:33 [main]-[INFO] Found element //*[@id='lt_sel_insert']
+2015-09-04 15:47:33 [main]-[INFO] Found desired element //*[@id='lt_sel_insert']
+2015-09-04 15:47:35 [main]-[INFO] Clicked //*[@id='lt_sel_insert']
+2015-09-04 15:47:35 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:35 [main]-[INFO] Found element //*[@id='lt_sendok']
+2015-09-04 15:47:35 [main]-[INFO] Found desired element //*[@id='lt_sendok']
+2015-09-04 15:47:36 [main]-[INFO] Clicked //*[@id='lt_sendok']
+2015-09-04 15:47:36 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:37 [main]-[INFO] Found element //*[@id='confirm_yes']
+2015-09-04 15:47:37 [main]-[INFO] Found desired element //*[@id='confirm_yes']
+2015-09-04 15:47:37 [main]-[INFO] Clicked //*[@id='confirm_yes']
+2015-09-04 15:47:38 [main]-[INFO] Not found text 购买成功
+2015-09-04 15:47:38 [main]-[INFO] Found text 购买成功
+2015-09-04 15:47:38 [main]-[INFO] Found desired text 购买成功
+2015-09-04 15:47:39 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:39 [main]-[INFO] Found element //*[@id='alert_close_button']
+2015-09-04 15:47:39 [main]-[INFO] Found desired element //*[@id='alert_close_button']
+2015-09-04 15:47:41 [main]-[INFO] Clicked //*[@id='alert_close_button']
+2015-09-04 15:47:42 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:42 [main]-[INFO] Found element //a[@class='logo']
+2015-09-04 15:47:43 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:43 [main]-[INFO] Found element //a[@class='logo']
+2015-09-04 15:47:43 [main]-[INFO] Found desired element //a[@class='logo']
+2015-09-04 15:47:44 [main]-[INFO] Clicked //a[@class='logo']
+2015-09-04 15:47:45 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:45 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:45 [main]-[INFO] Found desired element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:46 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:46 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:46 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:46 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:46 [main]-[INFO] Found desired element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:48 [main]-[INFO] Clicked By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:47:48 [main]-[INFO] Pause 500 ms
+2015-09-04 15:47:48 [main]-[INFO] Not found element//a[@id='newrefreshmoney']
+2015-09-04 15:48:18 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:18 [main]-[INFO] Opened url http://eden.qfs9.com
+2015-09-04 15:48:19 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:19 [main]-[INFO] Found element By.xpath: //input[@id='userName']
+2015-09-04 15:48:19 [main]-[INFO] Found desired element By.xpath: //input[@id='userName']
+2015-09-04 15:48:19 [main]-[INFO] Type hulk003 at By.xpath: //input[@id='userName']
+2015-09-04 15:48:20 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:20 [main]-[INFO] Found element By.id: password
+2015-09-04 15:48:20 [main]-[INFO] Found desired element By.id: password
+2015-09-04 15:48:20 [main]-[INFO] Type 123qwe at By.id: password
+2015-09-04 15:48:20 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:21 [main]-[INFO] Found element By.id: submit
+2015-09-04 15:48:21 [main]-[INFO] Found desired element By.id: submit
+2015-09-04 15:48:21 [main]-[INFO] Clicked By.id: submit
+2015-09-04 15:48:21 [main]-[INFO] 读取excel开始...
+2015-09-04 15:48:21 [main]-[INFO] 读取excel结束...
+2015-09-04 15:48:21 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:24 [main]-[INFO] Found element //a[@class='logo']
+2015-09-04 15:48:24 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:24 [main]-[INFO] Found element //a[@class='logo']
+2015-09-04 15:48:24 [main]-[INFO] Found desired element //a[@class='logo']
+2015-09-04 15:48:24 [main]-[INFO] Clicked //a[@class='logo']
+2015-09-04 15:48:25 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:26 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:48:26 [main]-[INFO] Found desired element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:48:26 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:26 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:48:27 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:27 [main]-[INFO] Found element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:48:27 [main]-[INFO] Found desired element By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:48:29 [main]-[INFO] Clicked By.xpath: //*[@id='lli_17']/a
+2015-09-04 15:48:29 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:30 [main]-[INFO] Found element //a[@id='newrefreshmoney']
+2015-09-04 15:48:30 [main]-[INFO] Found desired element //a[@id='newrefreshmoney']
+2015-09-04 15:48:30 [main]-[INFO] Clicked //a[@id='newrefreshmoney']
+2015-09-04 15:48:30 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:31 [main]-[INFO] Found element //span[contains(.,'五星')]
+2015-09-04 15:48:31 [main]-[INFO] Found desired element //span[contains(.,'五星')]
+2015-09-04 15:48:31 [main]-[INFO] Clicked //span[contains(.,'五星')]
+2015-09-04 15:48:32 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:32 [main]-[INFO] Found element //label[contains(.,'复式')]
+2015-09-04 15:48:32 [main]-[INFO] Found desired element //label[contains(.,'复式')]
+2015-09-04 15:48:32 [main]-[INFO] Clicked //label[contains(.,'复式')]
+2015-09-04 15:48:35 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:35 [main]-[INFO] Found element //*[@id='lli_17']/span
+2015-09-04 15:48:36 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:36 [main]-[INFO] Found element //li[@name='lt_place_0'][2]
+2015-09-04 15:48:36 [main]-[INFO] Found desired element //li[@name='lt_place_0'][2]
+2015-09-04 15:48:37 [main]-[INFO] Clicked //li[@name='lt_place_0'][2]
+2015-09-04 15:48:37 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:38 [main]-[INFO] Found element //li[@name='lt_place_1'][2]
+2015-09-04 15:48:38 [main]-[INFO] Found desired element //li[@name='lt_place_1'][2]
+2015-09-04 15:48:38 [main]-[INFO] Clicked //li[@name='lt_place_1'][2]
+2015-09-04 15:48:38 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:39 [main]-[INFO] Found element //li[@name='lt_place_2'][2]
+2015-09-04 15:48:39 [main]-[INFO] Found desired element //li[@name='lt_place_2'][2]
+2015-09-04 15:48:39 [main]-[INFO] Clicked //li[@name='lt_place_2'][2]
+2015-09-04 15:48:39 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:40 [main]-[INFO] Found element //li[@name='lt_place_3'][2]
+2015-09-04 15:48:40 [main]-[INFO] Found desired element //li[@name='lt_place_3'][2]
+2015-09-04 15:48:40 [main]-[INFO] Clicked //li[@name='lt_place_3'][2]
+2015-09-04 15:48:41 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:41 [main]-[INFO] Found element //li[@name='lt_place_4'][2]
+2015-09-04 15:48:41 [main]-[INFO] Found desired element //li[@name='lt_place_4'][2]
+2015-09-04 15:48:41 [main]-[INFO] Clicked //li[@name='lt_place_4'][2]
+2015-09-04 15:48:42 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:42 [main]-[INFO] Found element //li[@name='lt_place_4'][3]
+2015-09-04 15:48:42 [main]-[INFO] Found desired element //li[@name='lt_place_4'][3]
+2015-09-04 15:48:42 [main]-[INFO] Clicked //li[@name='lt_place_4'][3]
+2015-09-04 15:48:43 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:43 [main]-[INFO] Found element //label[contains(.,'元')]
+2015-09-04 15:48:43 [main]-[INFO] Found desired element //label[contains(.,'元')]
+2015-09-04 15:48:44 [main]-[INFO] Clicked //label[contains(.,'元')]
+2015-09-04 15:48:44 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:44 [main]-[INFO] Found element //label[contains(.,'厘')]
+2015-09-04 15:48:44 [main]-[INFO] Found desired element //label[contains(.,'厘')]
+2015-09-04 15:48:45 [main]-[INFO] Clicked //label[contains(.,'厘')]
+2015-09-04 15:48:45 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:46 [main]-[INFO] Found element //*[@id='lt_sel_times']
+2015-09-04 15:48:46 [main]-[INFO] Found desired element //*[@id='lt_sel_times']
+2015-09-04 15:48:46 [main]-[INFO] Type 1 at //*[@id='lt_sel_times']
+2015-09-04 15:48:46 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:47 [main]-[INFO] Found element //label[contains(.,'奖金182000')]
+2015-09-04 15:48:47 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:47 [main]-[INFO] Found element //label[contains(.,'奖金182000')]
+2015-09-04 15:48:47 [main]-[INFO] Found desired element //label[contains(.,'奖金182000')]
+2015-09-04 15:48:48 [main]-[INFO] Clicked //label[contains(.,'奖金182000')]
+2015-09-04 15:48:48 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:49 [main]-[INFO] Found element //label[contains(.,'奖金182000')]
+2015-09-04 15:48:49 [main]-[INFO] Found desired element //label[contains(.,'奖金182000')]
+2015-09-04 15:48:49 [main]-[INFO] Clicked //label[contains(.,'奖金182000')]
+2015-09-04 15:48:50 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:50 [main]-[INFO] Found element //label[contains(.,'奖金182000')]
+2015-09-04 15:48:51 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:51 [main]-[INFO] Found element //*[@id='lt_sel_insert']
+2015-09-04 15:48:51 [main]-[INFO] Found desired element //*[@id='lt_sel_insert']
+2015-09-04 15:48:53 [main]-[INFO] Clicked //*[@id='lt_sel_insert']
+2015-09-04 15:48:54 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:54 [main]-[INFO] Found element //*[@id='lt_sendok']
+2015-09-04 15:48:54 [main]-[INFO] Found desired element //*[@id='lt_sendok']
+2015-09-04 15:48:54 [main]-[INFO] Clicked //*[@id='lt_sendok']
+2015-09-04 15:48:55 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:55 [main]-[INFO] Found element //*[@id='confirm_yes']
+2015-09-04 15:48:55 [main]-[INFO] Found desired element //*[@id='confirm_yes']
+2015-09-04 15:48:55 [main]-[INFO] Clicked //*[@id='confirm_yes']
+2015-09-04 15:48:56 [main]-[INFO] Found text 购买成功
+2015-09-04 15:48:56 [main]-[INFO] Found desired text 购买成功
+2015-09-04 15:48:57 [main]-[INFO] Pause 500 ms
+2015-09-04 15:48:57 [main]-[INFO] Found element //*[@id='alert_close_button']
+2015-09-04 15:48:57 [main]-[INFO] Found desired element //*[@id='alert_close_button']
+2015-09-04 15:48:59 [main]-[INFO] Clicked //*[@id='alert_close_button']
+2015-09-04 15:49:00 [main]-[INFO] Pause 500 ms
+2015-09-04 15:49:00 [main]-[INFO] Quitted BrowserEmulator
