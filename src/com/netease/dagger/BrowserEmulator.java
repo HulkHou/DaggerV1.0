@@ -70,7 +70,7 @@ public class BrowserEmulator {
 		javaScriptExecutor = (JavascriptExecutor) browserCore;
 		logger.info("Started BrowserEmulator");
 		PropertyConfigurator
-				.configure("D:/workspace/Dagger//src/log4j.properties");
+				.configure("D:/workspace/DaggerV1.0/src/log4j.properties");
 	}
 
 	private void setupBrowserCoreType(int type) {
