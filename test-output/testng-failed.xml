@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="10" verbose="10" name="Failed suite [demo]" parallel="tests">
-  <test name="TestNg(failed)" parallel="tests">
+<suite thread-count="10" verbose="10" name="Failed suite [TestNgLogin]" parallel="tests">
+  <test name="TestNgLogin(failed)" parallel="tests">
     <classes>
-      <class name="com.netease.demo.TestNg">
+      <class name="com.ng.cases.TestNgLogin">
         <methods>
-          <include name="doBeforeClass"/>
-          <include name="doAfterClass"/>
-          <include name="doTest"/>
+          <include name="afterTest"/>
+          <include name="play"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.netease.demo.TestNg -->
-      <class name="com.netease.demo.TestNgClone">
+      </class> <!-- com.ng.cases.TestNgLogin -->
+      <class name="com.ng.cases.TestNgLoginClone">
         <methods>
-          <include name="doAfterClass"/>
-          <include name="doBeforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.netease.demo.TestNgClone -->
+      </class> <!-- com.ng.cases.TestNgLoginClone -->
     </classes>
-  </test> <!-- TestNg(failed) -->
-  <test name="TestNgClone(failed)" parallel="tests">
+  </test> <!-- TestNgLogin(failed) -->
+  <test name="TestNgLoginClone(failed)" parallel="tests">
     <classes>
-      <class name="com.netease.demo.TestNg">
+      <class name="com.ng.cases.TestNgLogin">
         <methods>
-          <include name="doBeforeClass"/>
-          <include name="doAfterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.netease.demo.TestNg -->
-      <class name="com.netease.demo.TestNgClone">
+      </class> <!-- com.ng.cases.TestNgLogin -->
+      <class name="com.ng.cases.TestNgLoginClone">
         <methods>
-          <include name="doTest"/>
-          <include name="doAfterClass"/>
-          <include name="doBeforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="play"/>
         </methods>
-      </class> <!-- com.netease.demo.TestNgClone -->
+      </class> <!-- com.ng.cases.TestNgLoginClone -->
     </classes>
-  </test> <!-- TestNgClone(failed) -->
-</suite> <!-- Failed suite [demo] -->
+  </test> <!-- TestNgLoginClone(failed) -->
+</suite> <!-- Failed suite [TestNgLogin] -->

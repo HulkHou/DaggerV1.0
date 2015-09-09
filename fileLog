@@ -1,49 +1,50 @@
-2015-09-08 17:56:28 [main]-[INFO] Pause 500 ms
-2015-09-08 17:56:29 [main]-[INFO] Opened url http://www.google.com
-2015-09-08 17:56:30 [main]-[INFO] Pause 500 ms
-2015-09-08 17:56:30 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:30 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:31 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:32 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:32 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:33 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:33 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:34 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:34 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:35 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:35 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:36 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:37 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:37 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:38 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:38 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:39 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:39 [main]-[INFO] Not found element//input[@name='q1']
-2015-09-08 17:56:59 [main]-[INFO] Pause 500 ms
-2015-09-08 17:57:01 [main]-[INFO] Opened url http://www.google.com
-2015-09-08 17:57:01 [main]-[INFO] Pause 500 ms
-2015-09-08 17:57:02 [main]-[INFO] Found element //input[@name='q']
-2015-09-08 17:57:02 [main]-[INFO] Found desired element //input[@name='q']
-2015-09-08 17:57:02 [main]-[INFO] Type java at //input[@name='q']
-2015-09-08 17:57:02 [main]-[INFO] Pause 500 ms
-2015-09-08 17:57:02 [main]-[INFO] Found element //input[@name='btnK']
-2015-09-08 17:57:02 [main]-[INFO] Found desired element //input[@name='btnK']
-2015-09-08 17:57:03 [main]-[INFO] Clicked //input[@name='btnK']
-2015-09-08 17:57:03 [main]-[INFO] Not found text www.java.com
-2015-09-08 17:57:04 [main]-[INFO] Found text www.java.com
-2015-09-08 17:57:04 [main]-[INFO] Found desired text www.java.com
-2015-09-08 17:57:04 [main]-[INFO] Pause 500 ms
-2015-09-08 17:57:05 [main]-[INFO] Opened url http://www.google.com
-2015-09-08 17:57:05 [main]-[INFO] Pause 500 ms
-2015-09-08 17:57:06 [main]-[INFO] Found element //input[@name='q']
-2015-09-08 17:57:06 [main]-[INFO] Found desired element //input[@name='q']
-2015-09-08 17:57:06 [main]-[INFO] Type github at //input[@name='q']
-2015-09-08 17:57:06 [main]-[INFO] Pause 500 ms
-2015-09-08 17:57:06 [main]-[INFO] Found element //input[@name='btnK']
-2015-09-08 17:57:06 [main]-[INFO] Found desired element //input[@name='btnK']
-2015-09-08 17:57:07 [main]-[INFO] Clicked //input[@name='btnK']
-2015-09-08 17:57:07 [main]-[INFO] Not found text https://github.com/
-2015-09-08 17:57:08 [main]-[INFO] Found text https://github.com/
-2015-09-08 17:57:08 [main]-[INFO] Found desired text https://github.com/
-2015-09-08 17:57:09 [main]-[INFO] Pause 500 ms
-2015-09-08 17:57:09 [main]-[INFO] Quitted BrowserEmulator
+2015-09-09 09:58:42 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:43 [TestNG]-[INFO] Opened url http://eden.qfs9.com
+2015-09-09 09:58:44 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:44 [TestNG]-[INFO] Found element By.xpath: //input[@id='userName']
+2015-09-09 09:58:44 [TestNG]-[INFO] Found desired element By.xpath: //input[@id='userName']
+2015-09-09 09:58:44 [TestNG]-[INFO] Type hulk003 at By.xpath: //input[@id='userName']
+2015-09-09 09:58:44 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:44 [TestNG]-[INFO] Found element By.id: password
+2015-09-09 09:58:44 [TestNG]-[INFO] Found desired element By.id: password
+2015-09-09 09:58:45 [TestNG]-[INFO] Using Firefox
+2015-09-09 09:58:45 [TestNG]-[INFO] Type 123qwe at By.id: password
+2015-09-09 09:58:45 [TestNG]-[INFO] Started BrowserEmulator
+2015-09-09 09:58:45 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:45 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:45 [TestNG]-[INFO] Found element By.id: submit
+2015-09-09 09:58:45 [TestNG]-[INFO] Found desired element By.id: submit
+2015-09-09 09:58:45 [TestNG]-[INFO] Clicked By.id: submit
+2015-09-09 09:58:45 [TestNG]-[INFO] 读取excel开始...
+2015-09-09 09:58:45 [TestNG]-[INFO] 读取excel结束...
+2015-09-09 09:58:46 [TestNG]-[INFO] Opened url http://eden.qfs9.com
+2015-09-09 09:58:46 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:46 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:46 [TestNG]-[INFO] Found element By.xpath: //input[@id='userName']
+2015-09-09 09:58:46 [TestNG]-[INFO] Found desired element By.xpath: //input[@id='userName']
+2015-09-09 09:58:46 [TestNG]-[INFO] Type hulk003 at By.xpath: //input[@id='userName']
+2015-09-09 09:58:47 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:47 [TestNG]-[INFO] Found element By.id: password
+2015-09-09 09:58:47 [TestNG]-[INFO] Found desired element By.id: password
+2015-09-09 09:58:47 [TestNG]-[INFO] Type 123qwe at By.id: password
+2015-09-09 09:58:47 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 09:58:47 [TestNG]-[INFO] Found element By.id: submit
+2015-09-09 09:58:47 [TestNG]-[INFO] Found desired element By.id: submit
+2015-09-09 09:58:48 [TestNG]-[INFO] Clicked By.id: submit
+2015-09-09 09:58:48 [TestNG]-[INFO] 读取excel开始...
+2015-09-09 09:58:48 [TestNG]-[INFO] 读取excel结束...
+2015-09-09 09:58:48 [TestNG]-[INFO] Pause 500 ms
+2015-09-09 13:46:35 [main]-[INFO] Pause 500 ms
+2015-09-09 13:46:38 [main]-[INFO] Opened url http://www.google.com
+2015-09-09 13:46:38 [main]-[INFO] Pause 500 ms
+2015-09-09 13:46:38 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:39 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:39 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:40 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:40 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:41 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:41 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:42 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:42 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:43 [main]-[INFO] Not found element//input[@name='q1']
+2015-09-09 13:46:44 [main]-[INFO] Not found element//input[@name='q1']

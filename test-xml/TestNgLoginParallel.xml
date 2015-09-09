@@ -5,5 +5,11 @@
 			<class name="com.ng.cases.TestNgLogin" />
 		</classes>
 	</test>
+	
+		<test name="TestNgLoginClone" junit="false" annotations="JDK">
+		<classes>
+			<class name="com.ng.cases.TestNgLoginClone" />
+		</classes>
+	</test>
 
 </suite>
