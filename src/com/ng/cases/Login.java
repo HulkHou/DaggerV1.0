@@ -11,8 +11,17 @@ import org.junit.Test;
 import com.netease.dagger.BrowserEmulator;
 import com.ng.cases.jxc.Cqssc;
 import com.ng.cases.jxc.Rbffc;
+import com.ng.cases.july.Bjkl8;
+import com.ng.cases.july.Bjpk10;
+import com.ng.cases.july.Fc3d;
+import com.ng.cases.july.Gd11x5;
+import com.ng.cases.july.Jx11x5;
+import com.ng.cases.july.Jxssc;
+import com.ng.cases.july.Sd11x5;
+import com.ng.cases.july.Tcp3;
 import com.ng.cases.july.Xg5fc;
 import com.ng.cases.july.Xgffc;
+import com.ng.cases.july.Xjssc;
 import com.ng.util.ImportExcel;
 import com.ng.util.ImportLoginUserExcel;
 import com.ng.util.UpdateExcel;
@@ -103,6 +112,51 @@ public class Login {
 				if ("西贡5分彩".equals(caiZhong)) {
 					Xg5fc xg5fc = new Xg5fc();
 					sellAmount = xg5fc.xg5fc(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("江西时时彩".equals(caiZhong)) {
+					Jxssc jxssc = new Jxssc();
+					sellAmount = jxssc.jxssc(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("新疆时时彩".equals(caiZhong)) {
+					Xjssc xjssc = new Xjssc();
+					sellAmount = xjssc.xjssc(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("北京快乐8".equals(caiZhong)) {
+					Bjkl8 bjkl8 = new Bjkl8();
+					sellAmount = bjkl8.bjkl8(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("北京PK10".equals(caiZhong)) {
+					Bjpk10 bjpk10 = new Bjpk10();
+					sellAmount = bjpk10.bjpk10(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("广东11选5".equals(caiZhong)) {
+					Gd11x5 gd11x5 = new Gd11x5();
+					sellAmount = gd11x5.gd11x5(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("山东11选5".equals(caiZhong)) {
+					Sd11x5 sd11x5 = new Sd11x5();
+					sellAmount = sd11x5.sd11x5(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("江西11选5".equals(caiZhong)) {
+					Jx11x5 jx11x5 = new Jx11x5();
+					sellAmount = jx11x5.jx11x5(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("福彩3D".equals(caiZhong)) {
+					Fc3d fc3d = new Fc3d();
+					sellAmount = fc3d.fc3d(be, touZhu);
+					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
+				}
+				if ("体彩P3".equals(caiZhong)) {
+					Tcp3 tcp3 = new Tcp3();
+					sellAmount = tcp3.tcp3(be, touZhu);
 					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
 				}
 			}

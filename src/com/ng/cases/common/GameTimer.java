@@ -13,17 +13,21 @@ public class GameTimer {
 
 	private String sec = "1";
 
-	public void GetGameTimer(BrowserEmulator be, String id)
+	public void GetGameTimer(BrowserEmulator be, String lotteryId)
 			throws InterruptedException {
 
 		// hour = be.getText("//div[@class='hour']");
 		//
 		// min = be.getText("//div[@class='min']");
 
-		if (be.isElementPresent("//*[@id='lli_" + id + "']/span", 500)) {
-			sec = be.getText("//*[@id='lli_" + id + "']/span").substring(5, 7);
-			System.out.println(sec + "!!!!!!!!!!!!!!!!");
-			time = StringUtil.parseInt(sec);
+		if (be.isElementPresent("//*[@id='lli_" + lotteryId + "']/span", 500)) {
+			min = be.getText("//*[@id='lli_" + lotteryId + "']/span")
+					.substring(2, 4);
+			sec = be.getText("//*[@id='lli_" + lotteryId + "']/span")
+					.substring(5, 7);
+			time = StringUtil.parseInt(min) * 60 + StringUtil.parseInt(sec);
+
+			System.out.println(time);
 
 			if (time < 20) {
 				Thread.sleep(time * 1000 + 5000);
@@ -34,9 +38,11 @@ public class GameTimer {
 			}
 		} else if (be.isElementPresent("//div[@class='sec']", 5000)) {
 
+			min = be.getText("//div[@class='min']");
+
 			sec = be.getText("//div[@class='sec']");
 
-			time = StringUtil.parseInt(sec);
+			time = StringUtil.parseInt(min) * 60 + StringUtil.parseInt(sec);
 
 			if (time < 20) {
 				Thread.sleep(time * 1000 + 5000);
@@ -56,9 +62,11 @@ public class GameTimer {
 
 		if (be.isElementPresent("//div[@class='sec']", 5000)) {
 
+			min = be.getText("//div[@class='min']");
+
 			sec = be.getText("//div[@class='sec']");
 
-			time = StringUtil.parseInt(sec);
+			time = StringUtil.parseInt(min) * 60 + StringUtil.parseInt(sec);
 
 			if (time < 20) {
 				Thread.sleep(time * 1000 + 5000);

@@ -168,17 +168,20 @@ public class Commit {
 
 		// 提交注单
 		be.click("//*[@id='lt_sendok']");
+		
+		Thread.sleep(2000);
 
 		// 提交注单確定
 		be.click("//*[@id='confirm_yes']");
 
 		// 投注成功截图
-		// Thread.sleep(3000);
 		screenName = touZhu.getCaseNo() + "-" + touZhu.getCaiZhong()
 				+ touZhu.getFathertype() + touZhu.getType() + "测试结果";
 
-		CaptureScreen.captureScreen(be, screenName);
+//		CaptureScreen.captureScreen(be, screenName);
 
+		Thread.sleep(3000);
+		
 		// 确认购买成功
 		be.expectTextExistOrNot(true, "购买成功", 5000);
 		be.click("//*[@id='alert_close_button']");

@@ -1,7 +1,8 @@
 /bin
 
-captureScreen/
-screenshot/
-test-output/
-target/
+/captureScreen/
+/screenshot/
+/test-output/
+/target/
 fileLog*
+test-output/index.html

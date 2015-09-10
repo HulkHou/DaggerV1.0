@@ -13,18 +13,21 @@ public class Cqssc {
 	private String playType = "";
 
 	private String caiZhong = "cz_cqssc";
-	
-	private String caiZhongQuick = "";
 
-	private String touZhuMapUrl = "map/Touzhu_map_jxc.xml";
+	private String caiZhongQuick = "cz_cqssc_quick";
+
+	private String touZhuMapUrl = "map/Touzhu_map_july.xml";
+
+	private String lotteryId = "1";
 
 	public Double cqssc(BrowserEmulator be, Touzhu touZhu) throws Exception {
 
-		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu, touZhuMapUrl);
+		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu,
+				touZhuMapUrl);
 
 		// 获取本期彩票销售时间
 		GameTimer gt = new GameTimer();
-		gt.GetGameTimer(be);
+		gt.GetGameTimer(be, lotteryId);
 
 		ChooseNumbers cn = new ChooseNumbers();
 

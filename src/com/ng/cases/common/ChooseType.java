@@ -34,8 +34,7 @@ public class ChooseType {
 		}
 
 		// —°‘Ò≤ ÷÷
-		if (be.isElementPresent(
-				be.getClickElementBy(caiZhongQuick, touZhuMapUrl), 500)) {
+		if (be.isElementPresent(caiZhongQuick, touZhuMapUrl, 500)) {
 			be.clickElement(caiZhongQuick, touZhuMapUrl);
 		} else {
 			be.clickElement("caizhong", touZhuMapUrl);

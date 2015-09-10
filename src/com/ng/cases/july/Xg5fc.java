@@ -18,6 +18,8 @@ public class Xg5fc {
 	
 	private String touZhuMapUrl = "map/Touzhu_map_july.xml";
 	
+	private String lotteryId = "15";
+	
 	public Double xg5fc(BrowserEmulator be, Touzhu touZhu) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu, touZhuMapUrl);
@@ -26,7 +28,7 @@ public class Xg5fc {
 
 		// 获取本期彩票销售时间
 		GameTimer gt = new GameTimer();
-		gt.GetGameTimer(be, "15");
+		gt.GetGameTimer(be, lotteryId);
 
 		ChooseNumbers cn = new ChooseNumbers();
 

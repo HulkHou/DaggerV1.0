@@ -69,8 +69,7 @@ public class BrowserEmulator {
 				"http://www.163.com/");
 		javaScriptExecutor = (JavascriptExecutor) browserCore;
 		logger.info("Started BrowserEmulator");
-		PropertyConfigurator
-				.configure("src/log4j.properties");
+		PropertyConfigurator.configure("src/log4j.properties");
 	}
 
 	private void setupBrowserCoreType(int type) {
@@ -636,6 +635,31 @@ public class BrowserEmulator {
 			logger.info("Not found element" + by.toString());
 			return false;
 		}
+
+	}
+
+	/**
+	 * @author hulk
+	 * @param node
+	 * @param map_url
+	 * @param time
+	 * @return
+	 */
+	public boolean isElementPresent(String node, String map_url, int time) {
+		pause(time);
+		boolean isPresent = false;
+		By by;
+
+		try {
+			factory = new AutoObjectFactory();
+			by = factory.getElementBy(node, map_url);
+			browserCore.findElement(by);
+			isPresent = true;
+		} catch (NoSuchElementException e) {
+			isPresent = false;
+		}
+
+		return isPresent;
 
 	}
 
