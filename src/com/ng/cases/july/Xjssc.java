@@ -16,11 +16,9 @@ public class Xjssc {
 	
 	private String caiZhongQuick = "cz_xjssc_quick";
 	
-	private String touZhuMapUrl = "map/Touzhu_map_july.xml";
-	
 	private String lotteryId = "6";
 	
-	public Double xjssc(BrowserEmulator be, Touzhu touZhu) throws Exception {
+	public Double xjssc(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu, touZhuMapUrl);
 		

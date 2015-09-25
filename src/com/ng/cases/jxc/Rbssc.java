@@ -1,4 +1,4 @@
-package com.ng.cases.july;
+package com.ng.cases.jxc;
 
 import com.netease.dagger.BrowserEmulator;
 import com.ng.cases.common.ChooseNumbers;
@@ -7,18 +7,18 @@ import com.ng.cases.common.Commit;
 import com.ng.cases.common.GameTimer;
 import com.ng.vo.Touzhu;
 
-public class Xgffc {
+public class Rbssc {
 
 	// fatherType+type
 	private String playType = "";
 
-	private String caiZhong = "cz_xgffc";
+	private String caiZhong = "cz_rbssc";
 	
-	private String caiZhongQuick = "cz_xgffc_quick";
+	private String caiZhongQuick = "cz_rbssc_quick";
 	
-	private String lotteryId = "17";
+	private String lotteryId = "15";
 	
-	public Double xgffc(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
+	public Double rbssc(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu, touZhuMapUrl);
 		

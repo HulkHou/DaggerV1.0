@@ -9,13 +9,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.netease.dagger.BrowserEmulator;
-import com.ng.cases.july.Xg5fc;
-import com.ng.cases.july.Xgffc;
-import com.ng.cases.jxc.Cqssc;
-import com.ng.cases.jxc.Rbffc;
 import com.ng.util.ImportExcel;
 import com.ng.util.ImportLoginUserExcel;
-import com.ng.util.UpdateExcel;
 import com.ng.vo.LoginUser;
 import com.ng.vo.Touzhu;
 
@@ -83,28 +78,6 @@ public class TestNgLogin {
 
 			caseFlag = touZhu.getCaseFlag();
 
-			if (caseFlag.equals("Y")) {
-				if ("重庆时时彩".equals(caiZhong)) {
-					Cqssc cqssc = new Cqssc();
-					sellAmount = cqssc.cqssc(be, touZhu);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("日本分分彩".equals(caiZhong)) {
-					Rbffc rbssc = new Rbffc();
-					sellAmount = rbssc.rbssc(be, touZhu);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("西贡分分彩".equals(caiZhong)) {
-					Xgffc xgffc = new Xgffc();
-					sellAmount = xgffc.xgffc(be, touZhu);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("西贡5分彩".equals(caiZhong)) {
-					Xg5fc xg5fc = new Xg5fc();
-					sellAmount = xg5fc.xg5fc(be, touZhu);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-			}
 		}
 	}
 

@@ -16,11 +16,9 @@ public class Xg5fc {
 	
 	private String caiZhongQuick = "cz_xg5fc_quick";
 	
-	private String touZhuMapUrl = "map/Touzhu_map_july.xml";
-	
 	private String lotteryId = "15";
 	
-	public Double xg5fc(BrowserEmulator be, Touzhu touZhu) throws Exception {
+	public Double xg5fc(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu, touZhuMapUrl);
 		

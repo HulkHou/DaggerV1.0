@@ -1,4 +1,4 @@
-package com.ng.cases.july;
+package com.ng.cases.jxc;
 
 import com.netease.dagger.BrowserEmulator;
 import com.ng.cases.common.ChooseNumbers;
@@ -7,18 +7,18 @@ import com.ng.cases.common.Commit;
 import com.ng.cases.common.GameTimer;
 import com.ng.vo.Touzhu;
 
-public class Fc3d {
+public class Pl3 {
 
 	// fatherType+type
 	private String playType = "";
 
-	private String caiZhong = "cz_fc3d";
+	private String caiZhong = "cz_pl3";
 	
-	private String caiZhongQuick = "cz_fc3d_quick";
+	private String caiZhongQuick = "cz_pl3_quick";
 	
-	private String lotteryId = "11";
+	private String lotteryId = "12";
 	
-	public Double fc3d(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
+	public Double pl3(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu, touZhuMapUrl);
 		

@@ -16,11 +16,9 @@ public class Tcp3 {
 	
 	private String caiZhongQuick = "cz_tcp3_quick";
 	
-	private String touZhuMapUrl = "map/Touzhu_map_july.xml";
-	
 	private String lotteryId = "12";
 	
-	public Double tcp3(BrowserEmulator be, Touzhu touZhu) throws Exception {
+	public Double tcp3(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu, touZhuMapUrl);
 		

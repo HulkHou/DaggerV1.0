@@ -14,6 +14,9 @@ public class LoginUser {
 	// 用户密码
 	String password = "";
 
+	// 平台
+	String platform = "";
+
 	public String getCaseFlag() {
 		return caseFlag;
 	}
@@ -44,6 +47,14 @@ public class LoginUser {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getPlatform() {
+		return platform;
+	}
+
+	public void setPlatform(String platform) {
+		this.platform = platform;
 	}
 
 }

@@ -16,11 +16,9 @@ public class Sd11x5 {
 
 	private String caiZhongQuick = "cz_sd11x5_quick";
 
-	private String touZhuMapUrl = "map/Touzhu_map_july.xml";
-
 	private String lotteryId = "5";
 
-	public Double sd11x5(BrowserEmulator be, Touzhu touZhu) throws Exception {
+	public Double sd11x5(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu,
 				touZhuMapUrl);

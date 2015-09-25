@@ -203,6 +203,9 @@ public class ImportLoginUserExcel {
 				case 4:
 					loginUser.setPassword(value);
 					break;
+				case 5:
+					loginUser.setPlatform(value);
+					break;					
 				}
 			}
 			loginUserList.add(loginUser);

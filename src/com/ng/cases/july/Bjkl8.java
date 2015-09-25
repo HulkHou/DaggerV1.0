@@ -16,11 +16,9 @@ public class Bjkl8 {
 
 	private String caiZhongQuick = "cz_bjkl8_quick";
 
-	private String touZhuMapUrl = "map/Touzhu_map_july.xml";
-
 	private String lotteryId = "9";
 
-	public Double bjkl8(BrowserEmulator be, Touzhu touZhu) throws Exception {
+	public Double bjkl8(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu,
 				touZhuMapUrl);

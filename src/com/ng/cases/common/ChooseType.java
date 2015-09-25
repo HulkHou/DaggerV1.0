@@ -34,9 +34,14 @@ public class ChooseType {
 		}
 
 		// —°‘Ò≤ ÷÷
-		if (be.isElementPresent(caiZhongQuick, touZhuMapUrl, 500)) {
-			be.clickElement(caiZhongQuick, touZhuMapUrl);
-		} else {
+		if (touZhuMapUrl.equals("map/Touzhu_map_july.xml")) {
+			if (be.isElementPresent(caiZhongQuick, touZhuMapUrl, 500)) {
+				be.clickElement(caiZhongQuick, touZhuMapUrl);
+			} else {
+				be.clickElement("caizhong", touZhuMapUrl);
+				be.clickElement(caiZhong, touZhuMapUrl);
+			}
+		} else if (touZhuMapUrl.equals("map/Touzhu_map_jxc.xml")) {
 			be.clickElement("caizhong", touZhuMapUrl);
 			be.clickElement(caiZhong, touZhuMapUrl);
 		}

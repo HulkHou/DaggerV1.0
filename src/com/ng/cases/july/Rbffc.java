@@ -7,26 +7,22 @@ import com.ng.cases.common.Commit;
 import com.ng.cases.common.GameTimer;
 import com.ng.vo.Touzhu;
 
-public class Xgffc {
+public class Rbffc {
 
 	// fatherType+type
 	private String playType = "";
 
-	private String caiZhong = "cz_xgffc";
+	private String caiZhong = "cz_rbffc";
 	
-	private String caiZhongQuick = "cz_xgffc_quick";
-	
-	private String lotteryId = "17";
-	
-	public Double xgffc(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
+	private String caiZhongQuick = "";
+
+	public Double rbssc(BrowserEmulator be, Touzhu touZhu, String touZhuMapUrl) throws Exception {
 
 		playType = ChooseType.chooseType(be, caiZhong, caiZhongQuick, touZhu, touZhuMapUrl);
-		
-		Thread.sleep(2000);
 
 		// 获取本期彩票销售时间
 		GameTimer gt = new GameTimer();
-		gt.GetGameTimer(be, lotteryId);
+		gt.GetGameTimer(be);
 
 		ChooseNumbers cn = new ChooseNumbers();
 
@@ -77,7 +73,7 @@ public class Xgffc {
 			cn.ds(be, touZhu);
 		} else if ("后三码混合".equals(playType)) {
 			cn.ds(be, touZhu);
-		}else if ("后三码组选和值".equals(playType)) {
+		} else if ("后三码组选和值".equals(playType)) {
 			cn.oneGroup(be, touZhu);
 		} else if ("前三码复式".equals(playType)) {
 			cn.threeGroups(be, touZhu);

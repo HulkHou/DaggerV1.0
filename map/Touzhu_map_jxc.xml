@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE Touzhu_map [
-	<!ELEMENT Touzhu_map (caizhong,cz_cqssc,cz_rbssc,cz_jxssc,cz_xjssc,cz_gd11x5,cz_cq11x5,cz_sd11x5,cz_jx11x5,cz_bjkl8,cz_3dfc,cz_pl3,cz_jsk3,cz_bjpk10) >
+	<!ELEMENT Touzhu_map (caizhong,cz_cqssc,cz_rbssc,cz_jxssc,cz_xjssc,cz_gd11x5,cz_cq11x5,cz_sd11x5,cz_jx11x5,cz_bjkl8,cz_fc3d,cz_pl3,cz_jsk3,cz_bjpk10) >
 	<!ELEMENT caizhong (#PCDATA)>
 	<!ELEMENT cz_cqssc (#PCDATA)>
 	<!ELEMENT cz_rbssc (#PCDATA)>
-	<!ELEMENT cz_rbffc (#PCDATA)>
 	<!ELEMENT cz_jxssc (#PCDATA)>
 	<!ELEMENT cz_xjssc (#PCDATA)>
 	<!ELEMENT cz_gd11x5 (#PCDATA)>
@@ -13,7 +12,7 @@
 	<!ELEMENT cz_sd11x5 (#PCDATA)>
 	<!ELEMENT cz_jx11x5 (#PCDATA)>
 	<!ELEMENT cz_bjkl8 (#PCDATA)>
-	<!ELEMENT cz_3dfc (#PCDATA)>
+	<!ELEMENT cz_fc3d (#PCDATA)>
 	<!ELEMENT cz_pl3 (#PCDATA)>
 	<!ELEMENT cz_jsk3 (#PCDATA)>
 	<!ELEMENT cz_bjpk10 (#PCDATA)>
@@ -127,7 +126,7 @@
 					  linkText CDATA #IMPLIED
 					  cssSelector CDATA #IMPLIED					  
 	>	
-	<!ATTLIST cz_3dfc propertyName CDATA #IMPLIED 
+	<!ATTLIST cz_fc3d propertyName CDATA #IMPLIED 
 					  id CDATA #IMPLIED 
 					  type CDATA #IMPLIED 
 					  value CDATA #IMPLIED
@@ -170,19 +169,32 @@
 ]>
 
 <Touzhu_map>
-	<caizhong propertyName="xpath" id="caizhong" linkText="重庆时时彩" value="" xpath="//a[@class='class mm']" />
-	<cz_cqssc propertyName="xpath" cssSelector="a.lottery_01" xpath=".//*[@id='headnav']/div[1]/ul/li[1]/dl/dd[1]/a" />
-	<cz_rbssc propertyName="cssSelector" cssSelector="a.lottery_02" xpath="//a[@class='lottery_02']" />
-	<cz_rbffc propertyName="xpath" cssSelector="a.lottery_02" xpath="//a[@href='./?nav=ffc']" />
-	<cz_jxssc propertyName="cssSelector" cssSelector="a.lottery_03" xpath="//a[@class='lottery_03']" />
-	<cz_xjssc propertyName="cssSelector" cssSelector="a.lottery_04" xpath="//a[@class='lottery_04']" />
-	<cz_gd11x5 propertyName="cssSelector" cssSelector="a.lottery_05" xpath="//a[@class='lottery_05']" />
-	<cz_cq11x5 propertyName="cssSelector" cssSelector="a.lottery_06" xpath="//a[@class='lottery_06']" />
-	<cz_sd11x5 propertyName="cssSelector" cssSelector="a.lottery_07" xpath="//a[@class='lottery_07']" />
-	<cz_jx11x5 propertyName="cssSelector" cssSelector="a.lottery_08" xpath="//a[@class='lottery_08']" />
-	<cz_bjkl8 propertyName="cssSelector" cssSelector="a.lottery_09" xpath="//a[@class='lottery_09']" />
-	<cz_3dfc propertyName="cssSelector" cssSelector="a.lottery_10" xpath="//a[@class='lottery_10']" />
-	<cz_pl3 propertyName="cssSelector" cssSelector="a.lottery_11" xpath="//a[@class='lottery_11']" />
-	<cz_jsk3 propertyName="cssSelector" cssSelector="a.lottery_12" xpath="//a[@class='lottery_12']" />
-	<cz_bjpk10 propertyName="cssSelector" cssSelector="a.lottery_13" xpath="//a[@class='lottery_13']" />
+	<caizhong propertyName="xpath" id="caizhong" linkText="重庆时时彩"
+		value="" xpath="//a[@class='class mm']" />
+	<cz_cqssc propertyName="xpath" cssSelector="a.lottery_01"
+		xpath="//a[@class='lottery_01']" />
+	<cz_rbssc propertyName="cssSelector" cssSelector="a.lottery_02"
+		xpath="//a[@class='lottery_02']" />
+	<cz_jxssc propertyName="cssSelector" cssSelector="a.lottery_03"
+		xpath="//a[@class='lottery_03']" />
+	<cz_xjssc propertyName="cssSelector" cssSelector="a.lottery_04"
+		xpath="//a[@class='lottery_04']" />
+	<cz_gd11x5 propertyName="cssSelector" cssSelector="a.lottery_05"
+		xpath="//a[@class='lottery_05']" />
+	<cz_cq11x5 propertyName="cssSelector" cssSelector="a.lottery_06"
+		xpath="//a[@class='lottery_06']" />
+	<cz_sd11x5 propertyName="cssSelector" cssSelector="a.lottery_07"
+		xpath="//a[@class='lottery_07']" />
+	<cz_jx11x5 propertyName="cssSelector" cssSelector="a.lottery_08"
+		xpath="//a[@class='lottery_08']" />
+	<cz_bjkl8 propertyName="cssSelector" cssSelector="a.lottery_09"
+		xpath="//a[@class='lottery_09']" />
+	<cz_fc3d propertyName="cssSelector" cssSelector="a.lottery_10"
+		xpath="//a[@class='lottery_10']" />
+	<cz_pl3 propertyName="cssSelector" cssSelector="a.lottery_11"
+		xpath="//a[@class='lottery_11']" />
+	<cz_jsk3 propertyName="cssSelector" cssSelector="a.lottery_12"
+		xpath="//a[@class='lottery_12']" />
+	<cz_bjpk10 propertyName="cssSelector" cssSelector="a.lottery_13"
+		xpath="//a[@class='lottery_13']" />
 </Touzhu_map>
