@@ -32,6 +32,10 @@ public class ChooseType {
 		if (be.isElementPresent("//a[@class='logo']", 500)) {
 			be.click("//a[@class='logo']");
 		}
+		
+		if (be.isElementPresent("//div[@style='color:#FFF; font-size:13px;   line-height: 30px; margin-top: 0px;']", 500)) {
+			be.click("//div[@style='color:#FFF; font-size:13px;   line-height: 30px; margin-top: 0px;']");
+		}
 
 		// —°‘Ò≤ ÷÷
 		if (touZhuMapUrl.equals("map/Touzhu_map_july.xml")) {

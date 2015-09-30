@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE Touzhu_map [
-	<!ELEMENT Touzhu_map (caizhong,cz_cqssc,cz_cqssc_quick,cz_xgffc,cz_xgffc_quick,cz_xg5fc,cz_xg5fc_quick,cz_rbssc,cz_jxssc,cz_jxssc_quick,cz_xjssc,cz_xjssc_quick,cz_gd11x5,cz_gd11x5_quick,cz_cq11x5,cz_sd11x5,cz_sd11x5_quick,cz_jx11x5,cz_jx11x5_quick,cz_bjkl8,cz_bjkl8_quick,cz_fc3d,cz_fc3d_quick,cz_tcp3,cz_tcp3_quick,cz_pl3,cz_jsk3,cz_bjpk10,cz_bjpk10_quick) >
+	<!ELEMENT Touzhu_map (caizhong,cz_xg5fc,cz_xg5fc_quick,cz_xgffc,cz_xgffc_quick,cz_cqssc,cz_cqssc_quick,cz_jxssc,cz_jxssc_quick,cz_xjssc,cz_xjssc_quick,cz_bjpk10,cz_bjpk10_quick,cz_bjkl8,cz_bjkl8_quick,cz_jsk3,cz_gd11x5,cz_gd11x5_quick,cz_sd11x5,cz_sd11x5_quick,cz_jx11x5,cz_jx11x5_quick,cz_fc3d,cz_fc3d_quick,cz_tcp3,cz_tcp3_quick) >
 	<!ELEMENT caizhong (#PCDATA)>
-	<!ELEMENT cz_cqssc (#PCDATA)>
-	<!ELEMENT cz_cqssc_quick (#PCDATA)>
+	<!ELEMENT cz_xg5fc (#PCDATA)>
+	<!ELEMENT cz_xg5fc_quick (#PCDATA)>	
 	<!ELEMENT cz_xgffc (#PCDATA)>
 	<!ELEMENT cz_xgffc_quick (#PCDATA)>
-	<!ELEMENT cz_xg5fc (#PCDATA)>
-	<!ELEMENT cz_xg5fc_quick (#PCDATA)>
-	<!ELEMENT cz_rbssc (#PCDATA)>
+	<!ELEMENT cz_cqssc (#PCDATA)>
+	<!ELEMENT cz_cqssc_quick (#PCDATA)>
 	<!ELEMENT cz_jxssc (#PCDATA)>
 	<!ELEMENT cz_jxssc_quick (#PCDATA)>
 	<!ELEMENT cz_xjssc (#PCDATA)>
 	<!ELEMENT cz_xjssc_quick (#PCDATA)>
+	<!ELEMENT cz_bjpk10 (#PCDATA)>
+	<!ELEMENT cz_bjpk10_quick (#PCDATA)>
+	<!ELEMENT cz_bjkl8 (#PCDATA)>
+	<!ELEMENT cz_bjkl8_quick (#PCDATA)>	
+	<!ELEMENT cz_jsk3 (#PCDATA)>
 	<!ELEMENT cz_gd11x5 (#PCDATA)>
 	<!ELEMENT cz_gd11x5_quick (#PCDATA)>
 	<!ELEMENT cz_cq11x5 (#PCDATA)>
@@ -21,16 +25,10 @@
 	<!ELEMENT cz_sd11x5_quick (#PCDATA)>
 	<!ELEMENT cz_jx11x5 (#PCDATA)>
 	<!ELEMENT cz_jx11x5_quick (#PCDATA)>
-	<!ELEMENT cz_bjkl8 (#PCDATA)>
-	<!ELEMENT cz_bjkl8_quick (#PCDATA)>
 	<!ELEMENT cz_fc3d (#PCDATA)>
 	<!ELEMENT cz_fc3d_quick (#PCDATA)>
 	<!ELEMENT cz_tcp3 (#PCDATA)>
-	<!ELEMENT cz_tcp3_quick (#PCDATA)>	
-	<!ELEMENT cz_pl3 (#PCDATA)>
-	<!ELEMENT cz_jsk3 (#PCDATA)>
-	<!ELEMENT cz_bjpk10 (#PCDATA)>
-	<!ELEMENT cz_bjpk10_quick (#PCDATA)>
+	<!ELEMENT cz_tcp3_quick (#PCDATA)>
 	<!ATTLIST caizhong propertyName CDATA #IMPLIED 
 					  id CDATA #IMPLIED 
 					  type CDATA #IMPLIED 
@@ -92,16 +90,6 @@
 					  cssSelector CDATA #IMPLIED					  
 	>
 	<!ATTLIST cz_xg5fc_quick propertyName CDATA #IMPLIED 
-					  id CDATA #IMPLIED 
-					  type CDATA #IMPLIED 
-					  value CDATA #IMPLIED
-					  className CDATA #IMPLIED
-					  name CDATA #IMPLIED
-					  xpath CDATA #IMPLIED
-					  linkText CDATA #IMPLIED
-					  cssSelector CDATA #IMPLIED					  
-	>	
-	<!ATTLIST cz_rbssc propertyName CDATA #IMPLIED 
 					  id CDATA #IMPLIED 
 					  type CDATA #IMPLIED 
 					  value CDATA #IMPLIED
@@ -326,60 +314,54 @@
 <Touzhu_map>
 	<caizhong propertyName="xpath" id="caizhong" linkText="彩票游戏"
 		value="" xpath="//a[contains(.,'彩票游戏')]" />
-	<cz_cqssc propertyName="xpath" cssSelector=""
-		xpath="//*[@id='json_navinfo']/dl[2]/dd[1]/a" />
-	<cz_cqssc_quick propertyName="xpath" cssSelector=""
-		xpath="//*[@id='lli_1']/a" />
-	<cz_xgffc propertyName="xpath" cssSelector=""
-		xpath="//*[@id='json_navinfo']/dl[1]/dd[2]/a" />
-	<cz_xgffc_quick propertyName="xpath" cssSelector=""
-		xpath="//*[@id='lli_17']/a" />
 	<cz_xg5fc propertyName="xpath" cssSelector=""
-		xpath="//*[@id='json_navinfo']/dl[1]/dd[1]/a" />
+		xpath="//*[@id='nav-one']/li[1]/ul/li[2]/a" />
 	<cz_xg5fc_quick propertyName="xpath" cssSelector=""
 		xpath="//*[@id='lli_15']/a" />
-	<cz_rbssc propertyName="cssSelector" cssSelector="a.lottery_02"
-		xpath="//a[@class='lottery_02']" />
+	<cz_xgffc propertyName="xpath" cssSelector=""
+		xpath="//*[@id='nav-one']/li[1]/ul/li[3]/a" />
+	<cz_xgffc_quick propertyName="xpath" cssSelector=""
+		xpath="//*[@id='lli_17']/a" />		
+	<cz_cqssc propertyName="xpath" cssSelector=""
+		xpath="//*[@id='nav-one']/li[1]/ul/li[4]/a" />
+	<cz_cqssc_quick propertyName="xpath" cssSelector=""
+		xpath="//*[@id='lli_1']/a" />
 	<cz_jxssc propertyName="xpath" cssSelector=""
-		xpath="//*[@id='json_navinfo']/dl[2]/dd[2]/a" />
+		xpath="//*[@id='nav-one']/li[1]/ul/li[5]/a" />
 	<cz_jxssc_quick propertyName="xpath" cssSelector=""
 		xpath="//*[@id='lli_3']/a" />
 	<cz_xjssc propertyName="xpath" cssSelector=""
-		xpath="//*[@id='json_navinfo']/dl[2]/dd[3]/a" />
+		xpath="//*[@id='nav-one']/li[1]/ul/li[6]/a" />
 	<cz_xjssc_quick propertyName="xpath" cssSelector=""
 		xpath="//*[@id='lli_6']/a" />
+	<cz_bjpk10 propertyName="xpath" cssSelector="a.lottery_13"
+		xpath="//*[@id='nav-one']/li[1]/ul/li[7]/a" />
+	<cz_bjpk10_quick propertyName="xpath" cssSelector=""
+		xpath="//*[@id='lli_14']/a" />
+	<cz_bjkl8 propertyName="xpath" cssSelector=""
+		xpath="//*[@id='nav-one']/li[1]/ul/li[8]/a" />
+	<cz_bjkl8_quick propertyName="xpath" cssSelector=""
+		xpath="//*[@id='lli_9']/a" />
+	<cz_jsk3 propertyName="cssSelector" cssSelector="a.lottery_12"
+		xpath="//*[@id='nav-one']/li[1]/ul/li[9]/a" />			
 	<cz_gd11x5 propertyName="xpath" cssSelector="a.lottery_05"
-		xpath="//*[@id='json_navinfo']/dl[3]/dd[1]/a" />
+		xpath="//*[@id='nav-one']/li[1]/ul/li[10]/a" />
 	<cz_gd11x5_quick propertyName="xpath" cssSelector=""
 		xpath="//*[@id='lli_8']/a" />
-	<cz_cq11x5 propertyName="cssSelector" cssSelector="a.lottery_06"
-		xpath="//a[@class='lottery_06']" />
 	<cz_sd11x5 propertyName="xpath" cssSelector="a.lottery_07"
-		xpath="//*[@id='json_navinfo']/dl[3]/dd[2]/a" />
+		xpath="//*[@id='nav-one']/li[1]/ul/li[11]/a" />
 	<cz_sd11x5_quick propertyName="xpath" cssSelector=""
 		xpath="//*[@id='lli_5']/a" />		
 	<cz_jx11x5 propertyName="xpath" cssSelector="a.lottery_08"
-		xpath="//*[@id='json_navinfo']/dl[3]/dd[3]/a" />
+		xpath="//*[@id='nav-one']/li[1]/ul/li[12]/a" />
 	<cz_jx11x5_quick propertyName="xpath" cssSelector=""
-		xpath="//*[@id='lli_7']/a" />		
-	<cz_bjkl8 propertyName="xpath" cssSelector=""
-		xpath="//*[@id='json_navinfo']/dl[2]/dd[4]/a" />
-	<cz_bjkl8_quick propertyName="xpath" cssSelector=""
-		xpath="//*[@id='lli_9']/a" />		
+		xpath="//*[@id='lli_7']/a" />			
 	<cz_fc3d propertyName="xpath" cssSelector=""
-		xpath="//*[@id='json_navinfo']/dl[4]/dd[1]/a" />
+		xpath="//*[@id='nav-one']/li[1]/ul/li[14]/a" />
 	<cz_fc3d_quick propertyName="xpath" cssSelector=""
 		xpath="//*[@id='lli_11']/a" />
 	<cz_tcp3 propertyName="xpath" cssSelector=""
-		xpath="//*[@id='json_navinfo']/dl[4]/dd[2]/a" />
+		xpath="//*[@id='nav-one']/li[1]/ul/li[15]/a" />
 	<cz_tcp3_quick propertyName="xpath" cssSelector=""
-		xpath="//*[@id='lli_12']/a" />		
-	<cz_pl3 propertyName="cssSelector" cssSelector="a.lottery_11"
-		xpath="//a[@class='lottery_11']" />
-	<cz_jsk3 propertyName="cssSelector" cssSelector="a.lottery_12"
-		xpath="//a[@class='lottery_12']" />
-	<cz_bjpk10 propertyName="xpath" cssSelector="a.lottery_13"
-		xpath="//*[@id='json_navinfo']/dl[2]/dd[5]/a" />
-	<cz_bjpk10_quick propertyName="xpath" cssSelector=""
-		xpath="//*[@id='lli_14']/a" />
+		xpath="//*[@id='lli_12']/a" />
 </Touzhu_map>
