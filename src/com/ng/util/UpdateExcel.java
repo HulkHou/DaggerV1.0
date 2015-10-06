@@ -14,7 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 public class UpdateExcel {
 
 	public static void updateExcel(String filePath, int sheetIndex, int col,
-			int row, Double value) throws Exception {
+			int row, String value) throws Exception {
 		File file = new File(filePath);
 		FileInputStream fis = new FileInputStream(file);
 		HSSFWorkbook workbook = new HSSFWorkbook(fis);
@@ -64,6 +64,6 @@ public class UpdateExcel {
 		String filePath = "src/data/Touzhu_data.xls";
 
 		// 下面尝试更改第一行第一列的单元格的值
-		UpdateExcel.updateExcel(filePath, 0, 26, 1, 9999.0000);
+//		UpdateExcel.updateExcel(filePath, 0, 26, 1, 9999.0000);
 	}
 }

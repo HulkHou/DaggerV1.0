@@ -168,11 +168,11 @@ public class Commit {
 
 		// 提交注单
 		be.click("//*[@id='lt_sendok']");
-		
-		Thread.sleep(2000);
 
 		// 提交注单確定
 		be.click("//*[@id='confirm_yes']");
+		
+		Thread.sleep(5000);
 
 		// 投注成功截图
 		screenName = touZhu.getCaseNo() + "-" + touZhu.getCaiZhong()
@@ -180,7 +180,7 @@ public class Commit {
 
 //		CaptureScreen.captureScreen(be, screenName);
 
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
 		// 确认购买成功
 		be.expectTextExistOrNot(true, "购买成功", 5000);

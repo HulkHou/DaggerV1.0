@@ -3,18 +3,20 @@ package com.ng.util;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
+import com.netease.dagger.BrowserEmulator;
+
 public class ThreadRefresh extends Thread {
-	private WebDriver driver;
+	private BrowserEmulator be;
 	public boolean isGetSucceed = false;
-	
-	public ThreadRefresh(WebDriver driver){
-		this.driver = driver;
+
+	public ThreadRefresh(BrowserEmulator be) {
+		this.be = be;
 	}
-	
+
 	@Override
-	public void run(){
+	public void run() {
 		try {
-			driver.navigate().refresh();
+			be.getBrowser().refresh();
 			isGetSucceed = true;
 		} catch (WebDriverException e) {
 			// TODO Auto-generated catch block

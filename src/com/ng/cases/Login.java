@@ -111,78 +111,52 @@ public class Login {
 				if ("重庆时时彩".equals(caiZhong)) {
 					Cqssc cqssc = new Cqssc();
 					sellAmount = cqssc.cqssc(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("日本时时彩".equals(caiZhong)) {
+				} else if ("日本时时彩".equals(caiZhong)) {
 					Rbssc rbssc = new Rbssc();
-					sellAmount = rbssc.rbssc(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("日本分分彩".equals(caiZhong)) {
+					sellAmount = rbssc.rbssc(be,
+							touZhu, touZhuMapUrl);
+				} else if ("日本分分彩".equals(caiZhong)) {
 					Rbffc rbssc = new Rbffc();
 					sellAmount = rbssc.rbssc(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("西贡分分彩".equals(caiZhong)) {
+				} else if ("西贡分分彩".equals(caiZhong)) {
 					Xgffc xgffc = new Xgffc();
 					sellAmount = xgffc.xgffc(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("西贡5分彩".equals(caiZhong)) {
+				} else if ("西贡5分彩".equals(caiZhong)) {
 					Xg5fc xg5fc = new Xg5fc();
 					sellAmount = xg5fc.xg5fc(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("江西时时彩".equals(caiZhong)) {
+				} else if ("江西时时彩".equals(caiZhong)) {
 					Jxssc jxssc = new Jxssc();
 					sellAmount = jxssc.jxssc(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("新疆时时彩".equals(caiZhong)) {
+				} else if ("新疆时时彩".equals(caiZhong)) {
 					Xjssc xjssc = new Xjssc();
 					sellAmount = xjssc.xjssc(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("北京快乐8".equals(caiZhong)) {
+				} else if ("北京快乐8".equals(caiZhong)) {
 					Bjkl8 bjkl8 = new Bjkl8();
 					sellAmount = bjkl8.bjkl8(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("北京PK10".equals(caiZhong)) {
+				} else if ("北京PK10".equals(caiZhong)) {
 					Bjpk10 bjpk10 = new Bjpk10();
 					sellAmount = bjpk10.bjpk10(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("广东11选5".equals(caiZhong)) {
+				} else if ("广东11选5".equals(caiZhong)) {
 					Gd11x5 gd11x5 = new Gd11x5();
 					sellAmount = gd11x5.gd11x5(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("山东11选5".equals(caiZhong)) {
+				} else if ("山东11选5".equals(caiZhong)) {
 					Sd11x5 sd11x5 = new Sd11x5();
 					sellAmount = sd11x5.sd11x5(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("江西11选5".equals(caiZhong)) {
+				} else if ("江西11选5".equals(caiZhong)) {
 					Jx11x5 jx11x5 = new Jx11x5();
 					sellAmount = jx11x5.jx11x5(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("福彩3D".equals(caiZhong)) {
+				} else if ("福彩3D".equals(caiZhong)) {
 					Fc3d fc3d = new Fc3d();
 					sellAmount = fc3d.fc3d(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("体彩P3".equals(caiZhong)) {
+				} else if ("体彩P3".equals(caiZhong)) {
 					Tcp3 tcp3 = new Tcp3();
 					sellAmount = tcp3.tcp3(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
-				}
-				if ("排列三".equals(caiZhong)) {
+				} else if ("排列三".equals(caiZhong)) {
 					Pl3 pl3 = new Pl3();
 					sellAmount = pl3.pl3(be, touZhu, touZhuMapUrl);
-					UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount);
 				}
+				UpdateExcel.updateExcel(filePath, 0, 28, i + 1, sellAmount.toString());
+				UpdateExcel.updateExcel(filePath, 0, 0, i + 1, "N");
 			}
 		}
 	}
