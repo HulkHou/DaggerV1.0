@@ -181,6 +181,23 @@ public class Xg5fc {
 			cn.oneGroup(be, touZhu);
 		} else if ("趣味四季发财".equals(playType)) {
 			cn.oneGroup(be, touZhu);
+		} else if ("任选二直选复式".equals(playType)) {
+			cn.fiveGroups(be, touZhu);
+		} else if ("任选二直选单式".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.ds(be, touZhu);
+		} else if ("任选二直选和值".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.oneGroup(be, touZhu);
+		} else if ("任选二组选复式".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.oneGroup(be, touZhu);
+		} else if ("任选二组选单式".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.ds(be, touZhu);
+		} else if ("任选二组选和值".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.oneGroup(be, touZhu);
 		}
 
 		// 确认注单，提交注单

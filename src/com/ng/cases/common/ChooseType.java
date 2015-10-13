@@ -32,8 +32,10 @@ public class ChooseType {
 		if (be.isElementPresent("//a[@class='logo']", 500)) {
 			be.click("//a[@class='logo']");
 		}
-		
-		if (be.isElementPresent("//div[@style='color:#FFF; font-size:13px;   line-height: 30px; margin-top: 0px;']", 500)) {
+
+		if (be.isElementPresent(
+				"//div[@style='color:#FFF; font-size:13px;   line-height: 30px; margin-top: 0px;']",
+				500)) {
 			be.click("//div[@style='color:#FFF; font-size:13px;   line-height: 30px; margin-top: 0px;']");
 		}
 
@@ -90,6 +92,12 @@ public class ChooseType {
 				be.click("//label[contains(@for,'smalllabel_1_4')]");
 			} else if ("二星组选前二和值".equals(type)) {
 				be.click("//label[contains(@for,'smalllabel_1_5')]");
+			} else {
+				be.click("//label[contains(.,'" + type + "')]");
+			}
+		} else if ("任选三".equals(fathertype)) {
+			if ("组选和值".equals(type)) {
+				be.click("//label[@for='smalllabel_1_3']");
 			} else {
 				be.click("//label[contains(.,'" + type + "')]");
 			}

@@ -150,7 +150,46 @@ public class Cqssc {
 			cn.oneGroup(be, touZhu);
 		} else if ("趣味四季发财".equals(playType)) {
 			cn.oneGroup(be, touZhu);
+		} else if ("任选二直选复式".equals(playType)) {
+			cn.fiveGroups(be, touZhu);
+		} else if ("任选二直选单式".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.ds(be, touZhu);
+		} else if ("任选二直选和值".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.oneGroup(be, touZhu);
+		} else if ("任选二组选复式".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.oneGroup(be, touZhu);
+		} else if ("任选二组选单式".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.ds(be, touZhu);
+		} else if ("任选二组选和值".equals(playType)) {
+			cn.rx2(be, touZhu);
+			cn.oneGroup(be, touZhu);
+		} else if ("任选三复式".equals(playType)) {
+			cn.fiveGroups(be, touZhu);
+		} else if ("任选三单式".equals(playType)) {
+			cn.rx3(be, touZhu);
+			cn.ds(be, touZhu);
+		} else if ("任选三和值".equals(playType)) {
+			cn.rx3(be, touZhu);
+			cn.oneGroup(be, touZhu);
+		} else if ("任选三组三".equals(playType)) {
+			cn.rx3(be, touZhu);
+			cn.oneGroup(be, touZhu);
+		} else if ("任选三组六".equals(playType)) {
+			cn.rx3(be, touZhu);
+			cn.oneGroup(be, touZhu);
+		} else if ("任选三混合组选".equals(playType)) {
+			cn.rx3(be, touZhu);
+			cn.ds(be, touZhu);
+		} else if ("任选三组选和值".equals(playType)) {
+			cn.rx3(be, touZhu);
+			cn.oneGroup(be, touZhu);
 		}
+		
+		
 
 		// 确认注单，提交注单
 		return Commit.commit(be, touZhu);

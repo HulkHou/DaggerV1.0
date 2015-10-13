@@ -339,5 +339,30 @@ public class ChooseNumbers {
 			}
 		}
 	}
+	
+	/**
+	 * 任选二
+	 * @param be
+	 * @param touZhu
+	 * @throws Exception
+	 */
+	public void rx2(BrowserEmulator be, Touzhu touZhu) throws Exception {
+
+		be.click("//*[@id='poschoose_2']/label[2]/input");
+		be.click("//*[@id='poschoose_2']/label[3]/input");
+	}
+	
+	/**
+	 * 任选三
+	 * @param be
+	 * @param touZhu
+	 * @throws Exception
+	 */
+	public void rx3(BrowserEmulator be, Touzhu touZhu) throws Exception {
+
+		be.click("//*[@id='poschoose_2']/label[2]/input");
+		be.click("//*[@id='poschoose_2']/label[3]/input");
+		be.click("//*[@id='poschoose_2']/label[4]/input");
+	}
 
 }

@@ -22,5 +22,6 @@
 	<classpathentry kind="lib" path="D:/app/eclipse/selenium/selenium-java-2.47.1.jar"/>
 	<classpathentry kind="lib" path="D:/app/eclipse/selenium/poi-3.11/poi-3.11-20141221.jar"/>
 	<classpathentry kind="lib" path="D:/app/eclipse/selenium/poi-3.11/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/app/eclipse/selenium/qdox-1.6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
