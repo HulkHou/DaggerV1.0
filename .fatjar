@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Oct 19 13:48:13 SGT 2015
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=D\:\\workspace\\DaggerV1.0\\DaggerV1.0_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.ng.cases.Launch
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=<inc|DaggerV1.0/data>;<inc|DaggerV1.0/map>;<inc|DaggerV1.0/.git>;<inc|DaggerV1.0/.settings>;<inc|DaggerV1.0/captureScreen>;<inc|DaggerV1.0/res>;<inc|DaggerV1.0/screenshot>;<inc|DaggerV1.0/src>;<inc|DaggerV1.0/target>;<inc|DaggerV1.0/test-output>;<inc|DaggerV1.0/test-xml>

@@ -10,29 +10,6 @@
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.ng.cases.TestNgLogin -->
-      <class name="com.ng.cases.TestNgLoginClone">
-        <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.ng.cases.TestNgLoginClone -->
     </classes>
   </test> <!-- TestNgLogin(failed) -->
-  <test name="TestNgLoginClone(failed)" parallel="tests">
-    <classes>
-      <class name="com.ng.cases.TestNgLogin">
-        <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.ng.cases.TestNgLogin -->
-      <class name="com.ng.cases.TestNgLoginClone">
-        <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="play"/>
-        </methods>
-      </class> <!-- com.ng.cases.TestNgLoginClone -->
-    </classes>
-  </test> <!-- TestNgLoginClone(failed) -->
 </suite> <!-- Failed suite [TestNgLogin] -->
